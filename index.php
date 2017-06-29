@@ -15,7 +15,7 @@
     <?php
       if(isset($_POST['yes']))
       {
-        echo "Hello Plunker";
+        echo "Hello az";
         header("/.auth/logout");
       }
     ?>
