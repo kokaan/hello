@@ -13,10 +13,10 @@
     <a href="/.auth/logout">Test</a> 
     </form>
     <?php
-      $user = $_SERVER['PHP_AUTH_USER']
+      //$user = $_SERVER['PHP_AUTH_USER']
       if(isset($_POST['yes']))
       {
-        echo $user;
+        //echo $user;
         echo "Hello az";
       }
     ?>
