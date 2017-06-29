@@ -10,7 +10,7 @@
     <h1>12</h1>
     <form method="POST">
     <input type="submit" name="yes" value="YES">
-    
+    <a href="/.auth/logout">Test</a> 
     </form>
     <?php
       if(isset($_POST['yes']))
