@@ -7,16 +7,17 @@
   </head>
 
   <body>
-    <h1>333312</h1>
+    <h1>00333311233</h1>
     <form method="POST">
     <input type="submit" name="yes" value="YES">
     <a href="/.auth/logout">Test</a> 
     </form>
     <?php
+      $user = $_SERVER['AUTH_USER']
       if(isset($_POST['yes']))
       {
+        echo $user;
         echo "Hello az";
-        header("/.auth/logout");
       }
     ?>
   </body>
